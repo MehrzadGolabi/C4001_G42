@@ -18,6 +18,10 @@ void counting_chars_words_lines(istream& in_file, int& chars, int& words, int& l
             lines++;
         else
             chars++;
+        if (!isalnum(cur) && isalnum(last)) /* finding the end of a word */
+            words++;
+        last = cur;
+
         if(cur=='\n'){
             newln_cnt_for_paragrapgh++;
             if(newln_cnt_for_paragrapgh==2){
@@ -26,15 +30,14 @@ void counting_chars_words_lines(istream& in_file, int& chars, int& words, int& l
             }
         }
         else{continue;}
-        if (!isalnum(cur) && isalnum(last)) /* finding the end of a word */
-            words++;
-        last = cur;
+
     }
     if (chars > 0) {               // adjusting for special cases
         if (isalnum(last))
             words++;
         lines++;
     }
+
 }
 
 int main(int argc, char** argv) {
