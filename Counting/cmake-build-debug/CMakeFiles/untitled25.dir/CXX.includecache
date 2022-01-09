@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mehrzad/Documents/GitHub/C4001_G42/Counting/main.cpp
+iostream
+-
+fstream
+-
+cstdlib
+-
+cctype
+-
+

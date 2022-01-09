@@ -1,0 +1,3 @@
+/Users/mehrzad/Documents/GitHub/C4001_G42/Counting/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/mehrzad/Documents/GitHub/C4001_G42/Counting/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/mehrzad/Documents/GitHub/C4001_G42/Counting/cmake-build-debug/CMakeFiles/untitled25.dir
