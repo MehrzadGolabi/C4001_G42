@@ -37,7 +37,10 @@ void counting_chars_words_lines(istream& in_file, int& chars, int& words, int& l
             words++;
         lines++;
     }
-
+    cout << "chars: " << chars << '\n';
+    cout << "words: " << words << '\n';
+    cout << "lines: " << lines << '\n';
+    cout << "paragraph: " << paragraph << '\n';
 }
 
 int main(int argc, char** argv) {
@@ -47,11 +50,5 @@ int main(int argc, char** argv) {
         exit(EXIT_FAILURE);
 
     int chars, words, lines, paragraph;
-
     counting_chars_words_lines(in_file, chars, words, lines,paragraph);
-    cout << "chars: " << chars << '\n';
-    cout << "words: " << words << '\n';
-    cout << "lines: " << lines << '\n';
-    cout << "paragraph: " << paragraph << '\n';
-
 }
