@@ -1,5 +1,6 @@
-//grp41: Matin Moshtaghi, Mehrzad Golabi, Matin Hashemi https://github.com/MehrzadGolabi/C4001_G42/blob/main/file_nahaii.cpp
+//grp41: Matin Moshtaghi, Mehrzad Golabi, Seied Matin Hashemi Teroujeni https://github.com/MehrzadGolabi/C4001_G42/blob/main/file_nahaii.cpp
 // file daryaft esm file input va output ra be dalil tadakhol dar tavabe hanooz nadarad, dar faz dovom in moshkel bartaraf mishavad.
+// dar hal hazer shamel bakhsh hai: 1- moratab sazi justify, 2- shroo khat aval az jloo tar ya indent, 6- kahesh fasele khat ha be yek khat, 8- shomaresh char ha, word ha, line ha, va paragraph ha ast.
 #include <iostream>
 //#include <windows.h>
 #include <fstream>
