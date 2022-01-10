@@ -1,4 +1,5 @@
 //grp41: Matin Moshtaghi, Mehrzad Golabi, Matin Hashemi https://github.com/MehrzadGolabi/C4001_G42/blob/main/file_nahaii.cpp
+// file daryaft esm file input va output ra be dalil tadakhol dar tavabe hanooz nadarad, dar faz dovom in moshkel bartaraf mishavad.
 #include <iostream>
 //#include <windows.h>
 #include <fstream>
